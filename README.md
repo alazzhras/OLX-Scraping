@@ -10,15 +10,15 @@ OLX Car Scraper is a Python-based tool that uses Selenium to collect used car li
 - **Error Handling**: Displays statistics on successfully and unsuccessfully scraped data.
 - **CSV Export**: Automatically saves the scraped data in a CSV file.
 
-## 📋 Installation
+## 📋 Requirements
 Before running the script, ensure you have the following:
 - Python 3.x
 - Google Chrome
 - ChromeDriver (matching your installed Chrome version)
 1. **Clone Repository**
    ```bash
-   git clone https://github.com/username/olx-car-scraper.git
-   cd olx-car-scraper
+   git clone https://github.com/alazzhras/OLX-Scraping.git
+   cd OLX-Scraping
    ```
 2. **Make Virtual Env (Optional, but recommended)**
    ```bash
@@ -32,13 +32,7 @@ Before running the script, ensure you have the following:
    ```
 
 ## 🚀 How to Use
-1. Clone repository:
-   ```sh
-   git clone https://github.com/alazzhras/OLX-Scraping.git
-   cd OLX-Scraping
-   ```
-
-2. Run script:
+1. Run script:
    ```sh
    python scrape.py
    ```
